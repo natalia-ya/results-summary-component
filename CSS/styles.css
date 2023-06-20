@@ -1,0 +1,73 @@
+:root {
+  /* Colors */
+  --primary-light-red: #ff5757;
+  --primary-yellow: #ffb01f;
+  --primary-green: #00bd91;
+  --primary-blue: #1125d4;
+
+  /* Gradients */
+  --bg-light-slate-blue: #7857ff;
+  --bg-light-royal-blue: #2e2be9;
+  --circle-blue-violet: #4e21ca;
+  --circle-persian-blue: #2421ca00;
+
+  /* Text */
+  --text-white: #ffffff;
+  --text-pale-blue: #ebf1ff;
+  --text-light-lavender: #c8c7ff;
+  --text-dark-gray-blue: #303b5a;
+
+  /* Font */
+  --primary-font: "Hanken Grotesk", sans-serif;
+}
+
+body {
+  color: var(--text-white);
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.button {
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+/* Result */
+.result {
+  background-color: var(--bg-light-slate-blue);
+}
