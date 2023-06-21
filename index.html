@@ -24,17 +24,6 @@
     <link rel="stylesheet" href="./CSS/styles.css" />
 
     <title>Results summary component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <section class="result">
@@ -54,27 +43,35 @@
       </div>
     </section>
 
-    <section class="sumary">
+    <section class="summary">
       <div class="container">
         <h2 class="summary__title">Summary</h2>
-        <div class="summary__body">
-          <div class="summary__item">
-            <p class="summary__item--title">Reaction</p>
-            <p class="summary__item--score">80 / 100</p>
-          </div>
-          <div class="summary__item">
-            <p class="summary__item--title">Memory</p>
-            <p class="summary__item--score">92 / 100</p>
-          </div>
-          <div class="summary__item">
-            <p class="summary__item--title">Verbal</p>
-            <p class="summary__item--score">61 / 100</p>
-          </div>
-          <div class="summary__item">
-            <p class="summary__item--title">Visual</p>
-            <p class="summary__item--score">72 / 100</p>
-          </div>
-        </div>
+        <ul class="summary__body">
+          <li class="summary__item summary__item--red">
+            <p class="summary__item--title summary__item--title--red">
+              Reaction
+            </p>
+            <p class="summary__item--score">80 <span>/ 100</span></p>
+          </li>
+          <li class="summary__item summary__item--yellow">
+            <p class="summary__item--title summary__item--title--yellow">
+              Memory
+            </p>
+            <p class="summary__item--score">92 <span>/ 100</span></p>
+          </li>
+          <li class="summary__item summary__item--green">
+            <p class="summary__item--title summary__item--title--green">
+              Verbal
+            </p>
+            <p class="summary__item--score">61 <span>/ 100</span></p>
+          </li>
+          <li class="summary__item summary__item--blue">
+            <p class="summary__item--title summary__item--title--blue">
+              Visual
+            </p>
+            <p class="summary__item--score">72 <span>/ 100</span></p>
+          </li>
+        </ul>
         <div class="continue">
           <button class="continue__button">Continue</button>
         </div>
